@@ -25,7 +25,7 @@ const App: React.FC = () => {
             date: "1 year ago",
             title: "The Last Battle",
             channelName: "Sabatonnn",
-            thumbnail: "/src/assets/TheLastBattle.webp",
+            thumbnail: "TheLastBattle.webp",
             channelImg: "/src/assets/Sabaton.jpg",
           }}
         />
