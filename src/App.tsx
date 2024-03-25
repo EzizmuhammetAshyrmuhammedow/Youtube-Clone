@@ -15,8 +15,8 @@ const App: React.FC = () => {
             date: "5 year ago",
             title: "Screaming Eagles",
             channelName: "Sabaton",
-            thumbnail: "src/assets/ScreamingEagles.webp",
-            channelImg: "src/assets/Sabaton.jpg",
+            thumbnail: "ScreamingEagles.webp",
+            channelImg: "Sabaton.jpg",
           }}
         />
         <Video
@@ -26,7 +26,7 @@ const App: React.FC = () => {
             title: "The Last Battle",
             channelName: "Sabatonnn",
             thumbnail: "TheLastBattle.webp",
-            channelImg: "/src/assets/Sabaton.jpg",
+            channelImg: "Sabaton.jpg",
           }}
         />
         <Video
@@ -35,8 +35,8 @@ const App: React.FC = () => {
             date: "5 year ago",
             title: "Screaming Eagles",
             channelName: "Sabaton",
-            thumbnail: "/src/assets/ScreamingEagles.webp",
-            channelImg: "/src/assets/Sabaton.jpg",
+            thumbnail: "ScreamingEagles.webp",
+            channelImg: "Sabaton.jpg",
           }}
         />
         <Video
@@ -45,8 +45,8 @@ const App: React.FC = () => {
             date: "1 year ago",
             title: "The Last Battle",
             channelName: "Sabatonnn",
-            thumbnail: "/src/assets/TheLastBattle.webp",
-            channelImg: "/src/assets/Sabaton.jpg",
+            thumbnail: "TheLastBattle.webp",
+            channelImg: "Sabaton.jpg",
           }}
         />
         <Video
@@ -55,8 +55,8 @@ const App: React.FC = () => {
             date: "5 year ago",
             title: "Screaming Eagles",
             channelName: "Sabaton",
-            thumbnail: "/src/assets/ScreamingEagles.webp",
-            channelImg: "/src/assets/Sabaton.jpg",
+            thumbnail: "ScreamingEagles.webp",
+            channelImg: "Sabaton.jpg",
           }}
         />
       </div>
