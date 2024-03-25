@@ -3,12 +3,12 @@ name: Deploy
 on:
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   build:
     name: Build
-    runs-on: arch-linux
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
@@ -17,13 +17,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: 20
+          node-version: 16
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
       - name: Build project
-        run: pnpm run build
+        run: npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
@@ -34,7 +34,7 @@ jobs:
   deploy:
     name: Deploy
     needs: build
-    runs-on: arch-linux
+    runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
     steps:
