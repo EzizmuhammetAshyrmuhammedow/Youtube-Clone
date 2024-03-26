@@ -16,7 +16,7 @@ interface VideoProps {
 const Video: React.FC<VideoProps> = ({ videoData }) => {
   const { title, channelName, thumbnail, views, date, channelImg } = videoData;
   return (
-    <div className="m-1 mb-5 cursor-pointer">
+    <div className="m-1 mx-2 mb-5 cursor-pointer">
       <Thumbnail thumbnail={thumbnail} />
       <div className="flex flex-row">
         <Channel channelImg={channelImg} />

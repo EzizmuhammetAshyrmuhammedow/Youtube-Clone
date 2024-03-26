@@ -8,7 +8,7 @@ function Thumbnail({ thumbnail }: Props) {
       <img
         src={thumbnail}
         alt=""
-        className="rounded-md hover:rounded-none cursor-pointer w-full"
+        className="rounded-md hover:rounded-none cursor-pointer w-auto"
       />
     </div>
   );
