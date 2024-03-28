@@ -5,9 +5,9 @@ import SearchWithMic from "./SearchWithMic";
 
 function Search() {
   return (
-    <div className="border-b border-b-gray-700 p-4 grid grid-cols-6 grid-rows-1">
+    <div className="border-b border-b-gray-700 p-2 grid grid-cols-6 grid-rows-1">
       <div className="flex items-center col-span-1">
-        <img src="yt.png" alt="" className="w-24 h-6" />
+        <img src="yt.png" alt="" className="w-24 h-5" />
       </div>
       <div
         id="Search"

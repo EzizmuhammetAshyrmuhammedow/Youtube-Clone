@@ -1,8 +1,20 @@
-function Title() {
+interface Props {
+  ShortsTitle: string;
+  ShortsViews: string;
+}
+
+function Title({ ShortsTitle, ShortsViews }: Props) {
   return (
-    <h3 className="text-xs font-normal absolute top-0 left-0 w-full flex flex-wrap">
-      How does this pen uncrush itself?
-    </h3>
+    <>
+      <div className=" bg-transparent m-1 ">
+        <h3 className="text-sm font-medium w-full flex flex-wrap bg-transparent">
+          {ShortsTitle}
+        </h3>
+        <p className="text-xs font-medium bg-transparent">
+          {ShortsViews} Views
+        </p>
+      </div>
+    </>
   );
 }
 export default Title;
